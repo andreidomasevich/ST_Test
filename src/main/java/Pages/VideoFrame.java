@@ -21,6 +21,7 @@ public class VideoFrame extends BasePage{
 
     private WorkPage workPage = new WorkPage();
     private SelenideElement videoFrame = workPage.getFrame();
+    //private SelenideElement videoFrame = workPage.getFrame();
 
     private SelenideElement getFrame(){
         videoSource = videoFrame.getAttribute("src");
